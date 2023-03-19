@@ -12,6 +12,8 @@
   width: 20%;
   height: 100%;
   position: fixed;
+  display: flex;
+  flex-direction: column;
 }
 
 .avatar{
@@ -54,14 +56,11 @@
   color: #288FC2;
 }
 
-.copyright{
+.sidebar .copyright{
   color:#fff;
-  position: absolute;
-  bottom: 2%;
-  left: 0;
-  right: 0;
   font-size: 12px;
-  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 .container{
